@@ -48,9 +48,9 @@ Para el tercer ejemplo, compile y ejecute:
 javac Contador.java Servidor_Contador.java Cliente_Contador.java
 bash macro_contador.sh
 ```
-##Sistema de donaciones
+## Sistema de donaciones
 
-####Configuración del servidor
+#### Configuración del servidor
 
 El servidor y la réplica se configuran de la siguiente manera:
 
@@ -64,7 +64,7 @@ Donacion donacion = new Donacion(servidor, replica);
 Naming.rebind(servidor, donacion);
 ```
 
-####Funcionalidades
+#### Funcionalidades
 <ul>
   <li>Registrar Usuario: Permite a los usuarios registrarse en el sistema distribuyendo la carga entre el servidor principal y la réplica.
 </li>
@@ -75,7 +75,7 @@ Naming.rebind(servidor, donacion);
   <li>Demás operaciones ....</li>
 </ul>
 
-####Ejecución del sistema
+#### Ejecución del sistema
 <ol>
   <li>Inicie el servidor principal y la réplica.
 </li>
